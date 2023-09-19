@@ -1,0 +1,49 @@
+.nova_tarefa {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.corpo_nova_tarefa {
+  background-color: #fff;
+  margin: 1em;
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.header_tarefa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 0.8em;
+}
+.titulo_tarefa {
+  color: #000;
+  margin: 0.8em;
+}
+.titulo_tarefa input {
+  width: 100%;
+  height: auto;
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.texto_tarefa {
+  color: #686767;
+  margin: 0.8em;
+}
+.texto_tarefa input {
+  width: 100%;
+  border: none;
+  resize: none;
+  outline: none;
+  background-color: transparent;
+}

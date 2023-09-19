@@ -1,0 +1,50 @@
+.header {
+  height: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.barra_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.barra_img {
+  width: 37px;
+  height: 37px;
+  margin-left: 10px;
+}
+.barra_pesquisa {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.barra_pesquisa input {
+  width: 100%;
+  height: 50%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(105, 105, 105, 0.5);
+}
+.img_pesquisa {
+  width: 25px;
+  height: 25px;
+  margin-left: -35px;
+}
+.barra_fechar {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.img_fechar {
+  width: 20px;
+  height: 20px;
+}
